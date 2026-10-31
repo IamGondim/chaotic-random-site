@@ -48,3 +48,16 @@ nav.lang a, .links a {
 .card { background: var(--card); border-radius: 12px; padding: 4px 18px; margin: 16px 0; }
 hr { border: 0; border-top: 1px solid var(--border); margin: 56px 0 8px; }
 footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); }
+a.game {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--card);
+  color: inherit;
+  text-decoration: none;
+}
+a.game img { width: 52px; height: 52px; border-radius: 12px; flex: none; }
+a.game > span { display: flex; flex-direction: column; }
