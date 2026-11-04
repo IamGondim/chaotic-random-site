@@ -61,3 +61,4 @@ a.game {
 }
 a.game img { width: 52px; height: 52px; border-radius: 12px; flex: none; }
 a.game > span { display: flex; flex-direction: column; }
+a.game + a.game { margin-top: 10px; }
